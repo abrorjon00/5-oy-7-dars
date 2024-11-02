@@ -8,7 +8,7 @@ const age = document.querySelector('#age')
 function createCard(data) {
   return `
     <div class="card">
-    <img src="${data.img}" alt="userning rasmi">
+    <img src="${data.img}" alt="rasm">
     <h3>${data.name}</h3>
     <p>${data.surname}</p>
     <h4>${data.age}</h4>
